@@ -52,4 +52,7 @@ button{
     z-index: 1;
 }
 
-/* stavi ako je sirina ispod 500px da se innerNavLi pojavljuje ispod sa position: relative */ 
+@media (min-width: 800px) {
+  .outerNavUl {
+    display: none; } }
+

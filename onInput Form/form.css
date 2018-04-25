@@ -1,0 +1,61 @@
+
+body{
+    background: #000;
+}
+
+#form{
+    margin: 20% auto;
+    text-align: center;
+    display: block;
+    background: #000;
+    width: 220px;
+}
+
+label{
+    color: #FFF;
+}
+
+#icon-continue{
+    color: #FFF;
+}
+
+#nameInput:focus #icon-continue{
+    color: #FFF;
+}
+
+#error{
+    margin-top: 5px;
+    color: #64DD17;
+    text-align: center;
+}
+
+input{
+    border: 1px solid #64DD17;
+    background: transparent;
+    color: #FFF;
+    height: 30px;
+    text-indent: 5px;
+    float: left;
+}
+
+button{
+    background: #64DD17;
+    border: transparent;
+    height: 34px;
+    cursor: pointer;
+    width: 41px;
+    float: left;
+    opacity: 0.9;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+input:focus, button:focus{
+    outline: none;
+}
+
+input::placeholder { 
+    font-size: 15px; 
+} 

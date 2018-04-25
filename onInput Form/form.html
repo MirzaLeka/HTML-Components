@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <!-- form.css -->
+    <link rel="stylesheet" href="form.css">
+      <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/fe459689b4.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="form">
+        <label>Enter name:</label>
+        <input type="text" oninput="changeBtnColor()" id="nameInput" placeholder=" ex: John Smith" required/>
+        <button id="btn-continue" type="button" onclick="submit()"><i id="icon-continue" class="fa fa-arrow-right"></i></button>
+        <p id="error"></p>
+    </div>
+   
+</body>
+
+<!-- form.js -->
+<script src="form.js">
+    </script>
+
+    </html>

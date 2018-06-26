@@ -1,0 +1,3 @@
+Project features basic user form form with multiple inputs. Everything inserted in the inputs will be displayed in a table below the form.
+
+What's interesting about the project is a smart use of objects and constructor, loop and array, which reduces amount of code needed to achieve the same result.

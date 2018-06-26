@@ -1,0 +1,12 @@
+body{
+  margin: 50px;
+}
+
+table{
+  border: 2px solid black;
+}
+
+td, th{
+  border: 1px solid black;
+  padding: 5px;
+}

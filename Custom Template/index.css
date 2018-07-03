@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+body, .container, .jumbotron {
+  background: white; }
+
+html, body{
+  overflow-x: hidden;
+}
+
+.pauseImg{
+  background: url("image.png") no-repeat center center;
+  width: 100%;
+  background-size: cover;
+  height: 40vh;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.charImage3{
+  height: 250px;
+}
+
+.charImage4{
+  height: 200px;
+}
+
+.text-center{
+  margin-top: 30px;
+}
+
+
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+/* /LOADER */
+#header {
+  background: url("image.png") no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+  height: 50vh;
+  overflow: hidden;
+ }
+

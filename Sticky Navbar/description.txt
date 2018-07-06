@@ -1,0 +1,2 @@
+Stick div (navbar) to top of the screen using CSS position: sticky.
+Special thanks to youtube channel Ryan Web Tech.

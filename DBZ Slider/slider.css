@@ -1,0 +1,19 @@
+button:hover{
+  background: #CCC;
+}
+
+img{
+  height: 425px;
+  width: 200px;
+}
+
+div{
+  margin: 20 auto;
+  text-align: center;
+}
+
+body{
+  background: url("https://images2.alphacoders.com/564/564835.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

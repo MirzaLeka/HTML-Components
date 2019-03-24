@@ -1,0 +1,28 @@
+
+body{
+    margin: 50px;
+}
+
+.searchInput, .searchBtn{
+    float: left;
+    height: 35px;
+  }
+  
+.searchInput{
+    width: 85%;
+    border: 1.5px solid #006ce0;
+    padding-left: 10px;
+  }
+  
+  .searchBtn{
+    border-radius: none;
+    border: none;
+    width: 15%;
+    background: #006ce0;
+    color: #FFF;
+    opacity: .8;
+    transition: 0.3s;
+  }
+  .searchBtn:hover{
+    opacity: 1;
+  }

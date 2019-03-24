@@ -1,0 +1,57 @@
+
+body{
+    margin: 50px;
+}
+
+.card{
+-webkit-box-shadow: 0 8px 6px -6px #999;
+-moz-box-shadow: 0 8px 6px -6px #999;
+box-shadow: 0 8px 6px -6px #999;
+}
+
+.card-title, .cart-text{
+ margin: 0 auto;
+ display: block;
+ text-align: center;
+}
+
+.card-img-div{
+position: relative;
+}
+
+.card-price{
+position: absolute;
+top: 5%;
+left: 5%;
+color: #FFF;
+text-align: center;
+}
+
+.price-span{
+color: #ABABAB;
+}
+
+.card-condition{
+color:#FFF;
+text-transform: uppercase;
+position: absolute;
+bottom: 5%;
+right: 5%;
+}
+
+.card-btn{
+background-image: linear-gradient(to right, #006ce0 ,#333);
+color: white;
+cursor: pointer;
+border-radius: 5px;
+border: none;
+height: 35px;
+width: 100%;
+opacity: 0.8;
+transition: 0.3s;
+}
+
+.card-btn:hover{
+    opacity: 1;
+/* background: #006ce0; */
+}

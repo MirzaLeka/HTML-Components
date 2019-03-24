@@ -9,11 +9,15 @@ body{
   }
   
 .searchInput{
-    width: 85%;
     border: 1.5px solid #006ce0;
     padding-left: 10px;
-  }
-  
+    width: 85%; 
+}
+
+.searchInput::-webkit-calendar-picker-indicator {
+  display: none;
+} 
+
   .searchBtn{
     border-radius: none;
     border: none;

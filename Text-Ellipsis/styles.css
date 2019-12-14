@@ -1,0 +1,21 @@
+label, input{
+    display: block;
+    width: 100%;
+  }
+  
+  label{
+    display: flex;
+    flex-wrap: no-wrap;
+  }
+  
+  input{
+    box-sizing: border-box
+  }
+  
+  
+  #first{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  

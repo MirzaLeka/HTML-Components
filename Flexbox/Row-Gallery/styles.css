@@ -24,7 +24,7 @@ border-right: none;
 }
 
 #one{
-background: url('http://images-mediawiki-sites.thefullwiki.org/06/2/7/5/8706582743124459.jpg');
+background: url('https://upload.wikimedia.org/wikipedia/en/d/d9/Sam_Fisher_SBL.png');
 	width: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -63,7 +63,7 @@ background: url('http://vignette2.wikia.nocookie.net/splintercell/images/6/64/А
       flex-direction: column;
       height: 1350px;
     }
-    
+
 .nums{
 width: 100%;
 border-right: none;

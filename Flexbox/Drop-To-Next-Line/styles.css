@@ -1,0 +1,32 @@
+.parent {
+  width: 350px;
+  display: flex;
+  border: 4px solid red;
+  /*   flex-flow: wrap; */
+  flex-flow: row-reverse wrap-reverse;
+}
+
+.children {
+  height: 100px;
+  width: 100px;
+}
+
+.child1 {
+  background: blue;
+}
+
+.child2 {
+  background: green;
+}
+
+.child3 {
+  background: yellow;
+}
+
+.child4 {
+  background: gray;
+}
+
+.child5 {
+  background: pink;
+}

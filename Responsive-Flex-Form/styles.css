@@ -1,0 +1,98 @@
+/* Layout */
+
+.container {
+  margin: 60px;
+}
+
+.grid-break {
+  height: 0.5px;
+  width: 100%;
+  background: gray;
+  margin: 20px 0;
+}
+
+.to-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Form */
+
+.transactions-form {
+  display: block;
+}
+
+.form-row {
+  display: flex;
+  gap: 30px;
+  margin-top: 35px;
+  flex-wrap: wrap;
+}
+
+.form-row:first-child {
+  margin-top: 0;
+}
+
+.form-field-wrapper {
+  display: block;
+}
+
+.form-field-label {
+  height: 20px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.form-field-input {
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 35px;
+  padding: 0 5px;
+}
+
+.form-field-button {
+  box-sizing: border-box;
+  height: 35px;
+  background: #007bff;
+  color: white;
+  min-width: 75px;
+}
+
+/* Form Fields */
+
+.account-input,
+.date-input {
+  width: 125px;
+}
+
+.year-input,
+.currency-input {
+  width: 70px;
+}
+
+.amount-input {
+  width: 90px;
+}
+
+.description-input {
+  min-width: 280px;
+}
+
+.search-button-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Remove slider from input type number */
+
+/* Chrome, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}

@@ -1,57 +1,78 @@
-
-body{
-    margin: 50px;
+body {
+  margin: 50px;
+  display: flex;
+  gap: 50px;
 }
 
-.card{
--webkit-box-shadow: 0 8px 6px -6px #999;
--moz-box-shadow: 0 8px 6px -6px #999;
-box-shadow: 0 8px 6px -6px #999;
+.card {
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
 }
 
-.card-title, .cart-text{
- margin: 0 auto;
- display: block;
- text-align: center;
+.card-title,
+.cart-text {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
 }
 
-.card-img-div{
-position: relative;
+.card-img-div {
+  position: relative;
 }
 
-.card-price{
-position: absolute;
-top: 5%;
-left: 5%;
-color: #FFF;
-text-align: center;
+.card-img-div2 {
+  background-image: url(https://sattvaholistic.files.wordpress.com/2013/04/sunset-big-orange-sun-setting-over-ocean.jpg);
+  background-position: center;
+  background-size: 20rem;
+  height: 215px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.price-span{
-color: #ABABAB;
+.card-img-div2 > h3 {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 15px;
 }
 
-.card-condition{
-color:#FFF;
-text-transform: uppercase;
-position: absolute;
-bottom: 5%;
-right: 5%;
+.card-img-div2 > h3:last-child {
+  align-self: flex-end;
 }
 
-.card-btn{
-background-image: linear-gradient(to right, #006ce0 ,#333);
-color: white;
-cursor: pointer;
-border-radius: 5px;
-border: none;
-height: 35px;
-width: 100%;
-opacity: 0.8;
-transition: 0.3s;
+.card-price {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: #fff;
+  text-align: center;
 }
 
-.card-btn:hover{
-    opacity: 1;
-/* background: #006ce0; */
+.price-span {
+  color: #ababab;
+}
+
+.card-condition {
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.card-btn {
+  background-image: linear-gradient(to right, #006ce0, #333);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  width: 100%;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.card-btn:hover {
+  opacity: 1;
+  /* background: #006ce0; */
 }
